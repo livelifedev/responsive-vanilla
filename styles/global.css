@@ -63,6 +63,10 @@ small,
   max-width: 95%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 @media screen and (min-width: 576px) {
   .container {
     max-width: 540px;
