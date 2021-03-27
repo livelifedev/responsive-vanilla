@@ -1,8 +1,8 @@
 .header-main {
   color: var(--white);
-  background: linear-gradient(0, rgba(0, 0, 0, 0) 41%, var(--main) 0%);
+  background: linear-gradient(0, rgba(0, 0, 0, 0) 39%, var(--main) 0%);
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 3rem 0 0;
 }
 
 .nav-main {
@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   margin: 0.5rem 0;
-  border-radius: var(--border-radius);
+  border-radius: var(--borderRadius);
   text-decoration: none;
   font-size: 1.2rem;
   justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 .nav-main a.tab-active {
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
   border-bottom: 5px solid var(--highlight);
 }
 .nav-main a:hover {
@@ -40,6 +40,7 @@
 @media screen and (min-width: 768px) {
   .header-main {
     background: linear-gradient(0, rgba(0, 0, 0, 0) 19%, var(--main) 0%);
+    padding-bottom: 1.5rem;
   }
   .nav-main {
     flex-direction: row;
@@ -54,4 +55,15 @@
     height: 60px;
     margin-bottom: 0.5rem;
   }
+}
+
+.footer-main {
+  padding: 3rem 0;
+  background: var(--main);
+  margin-top: 4.5rem;
+}
+
+.footer-main p {
+  color: var(--white);
+  margin: 0;
 }

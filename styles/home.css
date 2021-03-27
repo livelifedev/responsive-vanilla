@@ -1,0 +1,36 @@
+.grid-home-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.grid-home-intro h3 {
+  margin-top: 0;
+}
+
+.grid-home-intro ul {
+  list-style: none;
+  padding: 0;
+}
+
+.grid-home-intro li {
+  background-image: url(/assets/gift.svg);
+  background-repeat: no-repeat;
+  background-position: top 1px left 0;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .grid-home-intro {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid-home-intro {
+    align-items: start;
+  }
+}
