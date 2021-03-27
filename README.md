@@ -1,3 +1,5 @@
+Deployed link: https://vanilla-responsive.netlify.app/
+
 Responsive layout design using vanilla HTML, CSS and JavaScript.
 
 ## breakpoints
