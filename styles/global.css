@@ -6,6 +6,7 @@
   --highlight: #2d936c;
   --white: #ffffff;
   --black: #000000;
+  --border-radius: 5px;
 }
 
 body {
@@ -59,6 +60,7 @@ small,
 .container {
   width: 100%;
   margin: 0 auto;
+  max-width: 95%;
 }
 
 @media screen and (min-width: 576px) {

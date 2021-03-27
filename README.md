@@ -12,3 +12,7 @@ Responsive layout design using vanilla HTML, CSS and JavaScript.
 }
 @media screen and (min-width: 1400px) {
 }
+
+## resources
+
+svg icons from https://feathericons.com/

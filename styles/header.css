@@ -1,5 +1,48 @@
 .header-main {
   color: var(--white);
-  background-color: var(--main);
+  background: linear-gradient(0, rgba(0, 0, 0, 0) 41%, var(--main) 0%);
   text-align: center;
+  padding: 1.5rem 0;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-main a {
+  color: var(--white);
+  background: var(--secondary);
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  font-size: 1.2rem;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.nav-main a span {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header-main {
+    background: linear-gradient(0, rgba(0, 0, 0, 0) 19%, var(--main) 0%);
+  }
+  .nav-main {
+    flex-direction: row;
+  }
+  .nav-main a {
+    margin: 0 0.5rem;
+    flex: 1;
+    flex-direction: column;
+  }
+  .nav-main svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem;
+  }
 }
