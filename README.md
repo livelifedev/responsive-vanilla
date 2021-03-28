@@ -17,3 +17,5 @@ Responsive layout design using vanilla HTML, CSS and JavaScript.
 ## resources
 
 svg icons from https://feathericons.com/
+
+stock images from https://unsplash.com/
