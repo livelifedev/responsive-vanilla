@@ -12,7 +12,6 @@
 }
 
 .grid-team figcaption {
-  /* background: rgba(0, 0, 0, 0.6); */
   background: var(--secondary);
   color: var(--white);
   position: absolute;
@@ -61,6 +60,17 @@
   display: none;
 }
 
+.descriptions-team-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
 @media screen and (min-width: 576px) {
   .grid-team {
     grid-template-columns: repeat(2, 1fr);
@@ -92,6 +102,13 @@
     border-bottom: 15px solid var(--highlight);
     display: block;
     margin: 8px auto 0;
+  }
+
+  .descriptions-team-container {
+    position: static;
+    display: block;
+    padding: 0;
+    background: none;
   }
 }
 
