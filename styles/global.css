@@ -16,6 +16,19 @@ body {
   line-height: 1.75;
 }
 
+button {
+  cursor: pointer;
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+
+figcaption {
+  display: block;
+}
+
 img {
   border-radius: var(--borderRadius);
 }
