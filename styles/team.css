@@ -32,6 +32,8 @@
   margin: 0 auto 1rem;
   display: block;
   border: none;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .grid-team .item-team .icon-chevron {
@@ -49,15 +51,11 @@
 .description-team {
   background: var(--highlight);
   border-radius: 5px;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .icon-chevron svg path {
   fill: var(--secondary);
-}
-
-.hidden {
-  display: none;
 }
 
 .descriptions-team-container {
@@ -69,6 +67,21 @@
   display: flex;
   padding: 1rem;
   background: rgba(0, 0, 0, 0.6);
+}
+
+.hidden {
+  display: none;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem 3rem;
+  background: none;
+  border: none;
+  color: var(--black);
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 576px) {
@@ -109,6 +122,12 @@
     display: block;
     padding: 0;
     background: none;
+  }
+  .close-modal {
+    display: none;
+  }
+  .description-team {
+    padding: 3rem;
   }
 }
 
